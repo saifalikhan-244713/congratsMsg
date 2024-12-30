@@ -124,7 +124,7 @@ const App = () => {
 
   const handleMove = () => {
     setPosition((prev) => {
-      const newPosition = prev + 10;
+      const newPosition = prev + 80;
       if (newPosition >= 1000 && !showMessage) {
         setShowMessage(true);
       }
